@@ -1,0 +1,163 @@
+.promo {
+    background-color: #fff;
+    position: absolute;
+    width: 35%;
+    height: 480px;
+    top: 7%;
+    left:30%;
+}
+
+.promo .closeButton {
+    font-weight: 600;
+    float: right;
+    margin-right: -15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.promo .content-promo-div {
+    height: 438px;
+    padding: 0 25px;
+    overflow-y: scroll;
+}
+
+.promo .content-promo-div h2 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.promo .product-list {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.promo .product-list i {
+    font-size: 50px;
+    float: none;
+    margin: 15% 2% 0;
+    color: #35A1A4;
+}
+
+.promo i {
+    color: #fff;
+    float: right;
+}
+
+.promo .product {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.promo .product-content {
+    margin: 0;
+    text-align: center;
+    border: 3px solid #51b6b5;
+    height: 175px;
+}
+
+.promo .product-content p:first-child {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px 0;
+    font-weight: 600;
+    border-bottom: 2px solid #51b6b5;
+}
+
+.promo .promo-price {
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.promo .promo-unity {
+    margin-top: 0;
+}
+
+.promo .normal-price {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    color: #c8c8c8;
+    font-size: 15px;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.promo .product:first-child .promo-message {
+    color: #51b6b5;
+    font-weight: 700;
+}
+
+.promo .product .title-product {
+    margin: 0;
+    background-color: #51b6b5;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.promo .product img {
+    width: 70px;
+    padding-top: 35px;
+}
+
+.promo  p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.promo .buttonArea {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: -2px;
+    padding: 20px 0;
+}
+
+.promo .card-header {
+    cursor: pointer;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+    height: 50px;
+    border-radius: 0;
+    background-color: #51b6b5;
+    border-bottom: 1px solid #61C2C1;
+    color: #fff;
+}
+
+.promo #accordion {
+    margin: 20px 0;
+}
+
+.promo .btn.btn-link,.btn.btn-link:hover {
+    text-decoration: none;
+}
+
+.promo .card-body {
+    padding: 20px;
+}
+
+.promo .buttonArea button {
+    outline: none;
+    padding: 10px 15px;
+}
+
+.promo .buttonArea button:nth-child(2) {
+    background-color: transparent;
+    color: #51b6b5;
+    border: none;
+}
+
+.promo .buttonArea button:first-child, #cancel-second-step button {
+    background-color: #51b6b5;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+}

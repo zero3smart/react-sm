@@ -1,0 +1,10 @@
+{
+  "test": [
+    "Test in English",
+    "Test en Français"
+  ],
+  "farewell": [
+    "Goodbye",
+    "Au revoir"
+  ]
+}

@@ -1,0 +1,26 @@
+.market-item {
+    width: 50%;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.market-item:hover {
+    box-shadow: 1px 1px 2px 2px #51b6b5;
+}
+
+.market-item span {
+    width: 85%;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+}
+
+.market-item img {
+    vertical-align: top;
+    width: 10%;
+}

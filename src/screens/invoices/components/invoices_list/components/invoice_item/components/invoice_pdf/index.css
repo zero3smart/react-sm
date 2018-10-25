@@ -1,0 +1,239 @@
+.background-pdf {
+    height: 100%;
+    background-color: #242424;
+}
+
+.background-pdf .mb5 {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.background-pdf .mb5 button {
+    border: none;
+    color: #fff;
+    background-color: #55a5d5;
+    padding: 10px 20px;
+    font-weight: 900;
+    -webkit-box-shadow: 3px 4px 13px 1px rgba(0,0,0,0.26);
+    -moz-box-shadow: 3px 4px 13px 1px rgba(0,0,0,0.26);
+    box-shadow: 3px 4px 13px 1px rgba(0,0,0,0.26);
+}
+
+#divToPrint {
+    position: relative;
+    width : 21cm;
+    height: 29.7cm;
+    padding: 25px;
+    margin: 0 auto 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 3px 4px 13px 1px rgba(0,0,0,0.26);
+    -moz-box-shadow: 3px 4px 13px 1px rgba(0,0,0,0.26);
+    box-shadow: 3px 4px 13px 1px rgba(0,0,0,0.26);
+}
+
+#divToPrint .logo {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+#divToPrint .customer-adress {
+    padding-left: 100px;
+}
+
+#divToPrint .customer-adress p:first-child {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#divToPrint .customer-adress strong {
+    font-weight: 900;
+}
+
+#divToPrint .customer-domain {
+    font-weight: 500;
+}
+
+#divToPrint .customer-adress, #divToPrint .enterprise-adress {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#divToPrint .enterprise-adress {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+#divToPrint .enterprise-adress p {
+    padding: 5px 0;
+}
+
+#divToPrint .customer-adress{
+    margin-bottom: 25px;
+}
+
+#divToPrint .enterprise-adress p, #divToPrint .customer-adress p {
+    font-size: 14px;
+    margin: 0;
+}
+
+#divToPrint .invoice-number-and-status {
+    position: absolute;
+    right: -11px;
+}
+
+#divToPrint .invoice-number-and-status .invoice-number {
+    margin: 0;
+    padding-right: 25px;
+    font-size: 25px;
+    text-align: right;
+    border-bottom: 2px solid #51b6b5;
+}
+#divToPrint .invoice-number-and-status img {
+    float: right;
+    height: 40px;
+}
+
+#divToPrint .invoice-number-and-status .invoice-status {
+    position: absolute;
+    right: 25px;
+    top: 42px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+#divToPrint .invoice-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#divToPrint thead {
+    background-color: #E2F4F6;
+    color: #000;
+}
+
+#divToPrint thead th {
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 0;
+}
+#divToPrint thead th:first-child {
+    text-align: left;
+}
+
+#divToPrint tbody {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#divToPrint tbody td {
+    text-align: center;
+    padding: 15px 5px;
+}
+
+#divToPrint tbody td:first-child {
+    text-align: left;
+    padding-left: 15px;
+}
+
+#divToPrint tbody td:first-child img {
+    vertical-align: top;
+    margin-top: 10px;
+    display: inline-block;
+    width: 12%;
+}
+
+#divToPrint tbody td:first-child div {
+    width: 75%;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+#divToPrint tbody td:first-child div p {
+    margin: 0;
+    font-size: 12px;
+}
+
+#divToPrint thead th:first-child {
+    width: 50%;
+}
+
+#divToPrint .grand-total {
+    float: right;
+    margin-top: 40px;
+}
+
+#divToPrint .grand-total p:first-child {
+    font-weight: 900;
+}
+
+#divToPrint .grand-total p:last-child {
+    font-size: 12px;
+    color: green;
+}
+
+#divToPrint .grand-total p {
+    padding-bottom: 5px;
+    border-bottom : 1px solid #dbdbdb;
+}
+
+#divToPrint .grand-total span {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+#divToPrint .grand-total div {
+    display: inline-block;
+    padding: 7px;
+    text-align: center;
+}
+
+#divToPrint .thanks {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#divToPrint .paid-status {
+    position: relative;
+    width: 20%;
+    text-align: left;
+    top: 250px;
+    left: 580px;
+}
+
+#divToPrint .paid-status img {
+    width: 100px;
+    height: 50px;
+    transform: rotate(14deg);
+}
+
+.footer {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    border-top: 1px solid #51b6b5;
+    right: 20px;
+}
+
+.footer div:first-child {
+    text-align: center;
+}
+.footer div p:first-child {
+    font-weight: 500;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 14px;
+}
+.footer div p {
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.footer div:first-child p span {
+    padding: 0 10px;
+}

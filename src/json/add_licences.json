@@ -1,0 +1,59 @@
+{
+  "paymentInformation" : true,
+  "subscriptions": [
+    {
+      "name": "Shared Contacts for Gmail",
+      "image": "https://www.econsulting.fr/sm/shared-contact-for-gmail-pic.png",
+      "items": [],
+      "version": "PROFESSIONAL EDITION",
+      "currency": "$",
+      "unitPrice": 12,
+      "unit": "user",
+      "commitment": "month"
+    },
+    {
+      "name": "G Suite",
+      "image": "https://www.econsulting.fr/sm/g-suite.png",
+      "items": [],
+      "version": "BASIC EDITION",
+      "currency": "$",
+      "unitPrice": 4.17,
+      "unit": "user",
+      "commitment": "month"
+    },
+    {
+      "name": "Drive Extra Storage",
+      "image": "https://www.econsulting.fr/sm/drive.png",
+      "items": [
+        {
+          "name": "20GB de stockage",
+          "price": 2.00
+        },
+        {
+          "name": "50GB de stockage",
+          "price": 5.00
+        },
+        {
+          "name": "1TB de stockage",
+          "price": 10.00
+        }
+      ],
+      "version": null,
+      "currency": "$",
+      "unit": "user",
+      "commitment": "month"
+    },
+    {
+      "name": "Vault",
+      "image": "https://www.econsulting.fr/sm/vault.png",
+      "items": [],
+      "version": null,
+      "currency": "$",
+      "unitPrice": 4,
+      "unit": "user",
+      "commitment": "year"
+    }
+
+  ]
+}
+

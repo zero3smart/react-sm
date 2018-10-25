@@ -1,0 +1,32 @@
+{
+  "currency": "$",
+  "globalAmount": 50,
+  "commitment": "YEAR",
+  "checkout": [
+    {
+      "name": "Shared Contacts for Gmail",
+      "version": "PROFESSIONAL EDITION",
+      "domain": "econsulting.fr",
+      "plan": "PRO",
+      "image": "https://www.econsulting.fr/sm/shared-contact-for-gmail-pic.png",
+      "currency": "$",
+      "totalAmount": 50,
+      "unit": "domain",
+      "commitment": "year",
+      "expiration": "1 fév 2019"
+    },
+    {
+      "name": "Shared Contacts for Gmail",
+      "version": "PROFESSIONAL EDITION",
+      "domain": "econsulting.fr",
+      "plan": "PRO",
+      "image": "https://www.econsulting.fr/sm/shared-contact-for-gmail-pic.png",
+      "currency": "$",
+      "totalAmount": 50,
+      "unit": "domain",
+      "commitment": "year",
+      "expiration": "1 fév 2019"
+    }
+  ]
+}
+

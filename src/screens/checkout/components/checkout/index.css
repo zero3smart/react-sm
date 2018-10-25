@@ -1,0 +1,252 @@
+.whitebox-profile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout-title {
+    background-color: #51b6b5;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+
+.greybox {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.whitebox-profile input {
+    width: 95%;
+    padding-left: 15px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.select-country {
+    display: inline-block;
+    width: 76%;
+    margin: -10px 0 -15px 15px;
+}
+
+legend {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #33a1a5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
+legend, label {
+    display: block;
+}
+
+.row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.inline-form label {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #c4c4c4;
+    font-weight: 400;
+}
+
+.inline-form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-width: 0;
+}
+
+.greybox.nomarbot, .whitebox.nomarbot {
+    margin-bottom: 0;
+}
+
+.modif.btn, .modif.btn:focus {
+    width: 150px;
+    height: 40px;
+    float: right;
+    box-shadow : none;
+    outline: none;
+    color: #fff;
+    background-color: #51b6b5;
+}
+
+.dropdown-content.select-dropdown {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: none;
+}
+
+.css-7akihy, .css-13y4suz {
+    max-height: 45px !important;
+    height: 45px !important;
+    overflow-y: hidden !important;
+}
+
+.css-j0awjz {
+    margin: 15px auto;
+}
+
+.css-159udf1, .css-1k0mijm {
+    top: 10px;
+}
+
+.css-txh219 {
+    box-shadow: 0 0 0 1px #61C2C1 !important;
+    border-color: #61C2C1 !important;
+}
+
+.css-7yo41v li:active, .css-1ycyyax li:active, .css-7yo41v li:hasClass(selected), .css-1ycyyax li:hasClass(selected) {
+    background-color: #61C2C1;
+}
+
+
+.checkout-order .promo-part {
+    margin-right: 0;
+    padding: 0 20px;
+}
+
+.checkout-order .promo-button{
+    float: right;
+    text-align: center;
+    padding: 10px 0;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+}
+
+.total-cost-part {
+    padding: 20px;
+}
+
+.checkout-order .total-cost {
+    text-align: right;
+    font-size: 20px;
+    background-color: #51b6b5;
+    padding: 20px;
+}
+
+.payment-part {
+    padding: 20px;
+}
+
+.payment-part .payment-title {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.payment-part .payment-tab {
+    margin:  0;
+    padding: 0;
+}
+
+.payment-part .payment-tab p {
+    padding: 10px 0;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+}
+
+.payment-part .payment-tab p:first-child {
+    padding: 10px 0;
+    color: #5EB7B6;
+    text-align: center;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    border-bottom: 3px solid #5EB7B6;
+}
+
+.payment-part .paypal-part {
+    display: none;
+}
+
+.payment-part .credit-card-part, .payment-part .paypal-part {
+    padding: 20px 0;
+    text-align: center;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+}
+
+.payment-part .payment-label {
+    text-align: left;
+    color: #c4c4c4;
+}
+
+.payment-part input {
+    outline: 0;
+    border-radius: 5px;
+    border:1px solid #c4c4c4;
+    color: #c4c4c4;
+}
+
+.payment-part .payment-label span {
+    font-size: 7px;
+}
+
+.payment-part .credit-card-part p, .payment-part .paypal-part p {
+    padding: 15px 0;
+}
+
+.payment-part .credit-card-part .row {
+    margin-bottom: 20px;
+}
+
+.payment-part .credit-card-part {
+    height: 255px;
+}
+
+.payment-part .paypal-part {
+    text-align: center;
+    height: 255px;
+    border-width: 0 1px 1px 1px;
+    border-color: #c4c4c4
+}
+
+
+.payment-part  .validation {
+    margin-top: 15px;
+}
+
+.payment-part  .validation p {
+    padding-top: 15px;
+    text-align: right;
+}
+
+.validation-button {
+    padding-right: 0;
+}
+
+.validation-button button {
+    float: right;
+    border: none;
+    background-color: #c4c4c4;
+    padding: 10px 20px;
+}
+
+
+
+

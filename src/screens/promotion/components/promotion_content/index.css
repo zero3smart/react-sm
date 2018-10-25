@@ -1,0 +1,118 @@
+.promo-picto {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.headerEntitlement {
+    background-color: #53c1c0;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.collapsible {
+    margin: 0;
+    box-shadow: none;
+}
+.advantages {
+    padding: 3% 3%;
+    border: 1px solid #dddddd;
+}
+
+.advantages .advantages-ul {
+    padding-left: 25px;
+}
+
+.advantages .advantages-ul li {
+    list-style-type: circle;
+    line-height: 37px;
+}
+
+.advantages .advantages-ul li span {
+    color: #53c1c0;
+}
+
+.advantages .promo-picture-part {
+    padding: 20px 0;
+}
+
+.three-month-free-picture {
+      margin-top: 15px;
+}
+
+#accordion2 .card {
+    border-radius: 0;
+    display: inline-block;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+}
+
+#accordion2 .card .card-header {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#accordion2 .card .card-block:last-child {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.how-it-works-part {
+    margin-top: 50px;
+}
+
+.how-it-works-content {
+    border: 1px solid #c4c4c4;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.how-it-works-content:after,
+.how-it-works-content:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.how-it-works-content:after {
+    bottom: -22px;
+    border-width: 23px 30px 0 30px;
+    left: calc( 50% - 16px);
+    border-color: #fff transparent transparent transparent;
+}
+
+.how-it-works-content:before {
+    bottom: -24px;
+    left: calc( 50% - 17px);
+    border-width: 24px 31px 0 31px;
+    border-color: #c4c4c4 transparent transparent transparent;
+}
+
+
+.how-it-works-part ul {
+    width: 100%;
+}
+
+
+.how-it-works-part li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.how-it-works-part li span {
+    color: #53C1C0;
+}
+
+.logo-cloud {
+    width: 150px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.promotion-signature {
+    margin-top: 30px;
+    float: right;
+}

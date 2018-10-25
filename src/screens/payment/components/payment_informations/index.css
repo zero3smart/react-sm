@@ -1,0 +1,28 @@
+.add-payment {
+    padding: 20px 0;
+}
+
+
+.add-payment .btn-floating a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add-payment .btn-floating i {
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #51b6b5;
+}
+
+.add-payment-link, .add-payment-link:hover {
+    text-decoration: none;
+    position: relative;
+    top: -7px;
+    margin-left: 10px;
+    color: #51b6b5;
+    font-size: 15px;
+    font-weight: 600;
+}

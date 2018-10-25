@@ -1,0 +1,51 @@
+.renew {
+    background-color: #fff;
+    position: absolute;
+    padding-bottom: 20px;
+    width: 25%;
+    top: 25%;
+    left: 37%;
+}
+
+.renew .closeButton {
+    font-weight: 600;
+    float: right;
+    margin-right: -15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.renew  p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.renew .buttonArea {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+.renew .buttonArea button {
+    outline: 0;
+    width: 150px;
+    padding: 5px 10px;
+}
+
+.renew .buttonArea button:first-child {
+    background-color: transparent;
+    color: #51b6b5;
+    border: none;
+}
+
+.renew .buttonArea button:nth-child(2), #renew-second-step button {
+    background-color: #51b6b5;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+}
+
+#renew-second-step {
+    display: none;
+}

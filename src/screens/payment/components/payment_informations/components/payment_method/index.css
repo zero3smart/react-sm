@@ -1,0 +1,105 @@
+
+.ccard {
+    width: 348px;
+}
+
+.card-panel {
+    transition: box-shadow .25s;
+    padding: 20px;
+    margin: 0 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.ccard .card-panel {
+    background: url(../../../../../../img/bg-card2.png) center center;
+}
+
+#currentCard .card-panel button, #card .card-panel button {
+    color: #fff;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #51b6b5;
+    border: none;
+    height: 27px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+#currentCard .card-panel, #card .card-panel {
+    height: 197px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+}
+
+#card .ccard .card-panel .validityDate {
+    text-align: center;
+}
+
+#currentCard .card-panel p.label, #card .card-panel p.label {
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;;
+    line-height: 2.5em;
+}
+
+#card .validityDate .data {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+#card .ccard .card-panel .number {
+    margin-top: 50px;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#currentCard p.card-state, #card p.card-state {
+    font-weight: 700;
+    padding: 8px 5px;
+}
+
+#currentCard p.card-state.valid, #card p.card-state.valid {
+    margin-top: 0;
+    color: #0c0;
+    font-size: 15px;
+}
+#currentCard p.card-state.invalid, #card p.card-state.invalid {
+    margin-top: 0;
+    color: #c00;
+    font-size: 15px;
+}
+
+#currentCard p.card-title, #card p.card-title {
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+#currentCard .footer, #card .footer {
+    background-color: #fff;
+    border: 1px solid #19A8DC;
+    bottom: 0;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}

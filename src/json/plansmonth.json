@@ -1,0 +1,83 @@
+{
+  "plans": [
+    {
+      "id" : 4,
+      "mostPopular" : false,
+      "currency" : "$",
+      "amount" : 5,
+      "unit" : "domain",
+      "commitment" : "month",
+      "planColor" : "amber",
+      "topMessage" : "5 users pack",
+      "billedMessage" : "Billed monthly",
+      "totalYearMessage" : null,
+      "optionnalMinMessage" : null,
+      "planName" : "BASIC",
+      "planSpecificFeatures" : [
+        "Up to 10 shared contact groups",
+        "Up to 250 shared Contacts per groups"
+      ],
+      "planFeatures" : [
+        "24/7 technical support",
+        "Mobile/Tablet & Outlook sync",
+        "Permission delegation",
+        "Sharing with users"
+      ],
+      "buttonName" : "BUY"
+    },
+    {
+      "id" : 5,
+      "mostPopular" : true,
+      "currency" : "$",
+      "amount" : 1.29,
+      "unit" : "user",
+      "commitment" : "month",
+      "planColor" : "blue",
+      "topMessage" : "UNLIMITED SHARES",
+      "billedMessage" : "Billed monthly",
+      "totalYearMessage" : null,
+      "optionnalMinMessage" : "(min. 5 users)",
+      "planName" : "PRO",
+      "planSpecificFeatures" : [
+        "Unlimited # of shared contact groups",
+        "Unlimited # of shared contacts",
+        "Sharing with users AND users groups"
+      ],
+      "planFeatures" : [
+        "24/7 technical support",
+        "Mobile/Tablet & Outlook sync",
+        "Permission delegation",
+        "Sharing with users"
+      ],
+      "buttonName" : "BUY"
+    },
+    {
+      "id" : 6,
+      "mostPopular" : false,
+      "currency" : "$",
+      "amount" : 1.49,
+      "unit" : "user",
+      "commitment" : "month",
+      "planColor" : "red",
+      "topMessage" : "FOR MULTIPLE DOMAINS",
+      "billedMessage" : "Billed monthly",
+      "totalYearMessage" : null,
+      "optionnalMinMessage" : "(min. 5 users)",
+      "planName" : "ENTERPRISE",
+      "planSpecificFeatures" : [
+        "Advanced logging and security features",
+        "Sharing with external domain users and @gmail.com addresses"
+      ],
+      "planFeatures" : [
+        "Unlimited # of shared contact groups",
+        "Unlimited # of shared contacts",
+        "Sharing with users AND users groups",
+        "24/7 technical support",
+        "Mobile/Tablet & Outlook sync",
+        "Permission delegation",
+        "Sharing with users"
+      ],
+      "buttonName" : "BUY"
+    }
+  ]
+}

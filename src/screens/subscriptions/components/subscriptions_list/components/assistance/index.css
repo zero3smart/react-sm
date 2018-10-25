@@ -1,0 +1,20 @@
+.assistance h1 {
+    color: #646464;
+    font-size: 25px;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+.assistance h2 {
+    color: #666;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #53c1c0;
+    line-height: 2em;
+}
+
+.assistance p {
+    color: #646464;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+}

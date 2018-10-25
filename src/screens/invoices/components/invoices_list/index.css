@@ -1,0 +1,37 @@
+.wrapper-center {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper-center table {
+    border: 1px solid #c4c4c4;
+    margin-bottom: 50px;
+}
+
+.wrapper-center tr:first-child {
+    font-size: 17px;
+    background-color: #191926;
+    color: #fff;
+}
+
+.wrapper-center tr:first-child td {
+    padding-top: 13px;
+}
+
+.wrapper-center table tr td:first-child {
+    text-align: left !important;
+    padding-left: 20px;
+}
+
+.wrapper-center td {
+    text-align: center !important;
+    border-radius: 0;
+}
+
+.table-bordered > tbody > tr > td {
+    border: none;
+    height:50px;
+    padding-top: 15px;
+    border-bottom: 1px solid #c4c4c4;
+}

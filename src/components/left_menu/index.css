@@ -1,0 +1,88 @@
+/* LEFT-SIDE MENU */
+
+.left-menu {
+    display: inline-block;
+    width: 210px;
+    vertical-align: top;
+    height: calc( 100vh - 25px );
+    background-color: #0F1922;
+}
+
+.left-menu ul {
+    padding-left: 0;
+}
+
+.left-menu ul li {
+    width: 100%;
+    list-style: none;
+    line-height: 18px;
+    color: white;
+    border-bottom : 1px solid rgba(240, 240, 240, .2);
+
+}
+
+.left-menu ul li, .left-menu ul li a {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    padding: 0;
+}
+
+.left-menu ul li:first-child {
+    background-color: #61C2C1;
+    text-align : center;
+    height: 100px;
+    position: relative;
+    top: -4px;
+}
+
+.left-menu li:first-child img {
+    padding : 24px 0;
+    width: 190px;
+    vertical-align: top;
+    margin-left: -6px;
+}
+
+.left-menu .picto-wrapper {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.left-menu .activeNav .picto-wrapper {
+    background-color: #35A1A4;
+}
+
+.left-menu span {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 135px;
+    padding: 5px 0;
+}
+
+.left-menu span.picto {
+    width : 34px;
+    overflow: hidden;
+}
+
+.left-menu span.picto img {
+    vertical-align: middle;
+    position: relative;
+    right: 34px;
+}
+
+.left-menu .activeNav span.picto img {
+    right: 0;
+}
+
+.left-menu nav ul li a.activeNav {
+    background-color : #53C1C0;
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

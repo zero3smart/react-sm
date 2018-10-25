@@ -1,0 +1,154 @@
+.add {
+    background-color: #fff;
+    position: absolute;
+    width: 40%;
+    top: 10%;
+    left:30%;
+}
+
+.add .closeButton {
+    font-weight: 600;
+    float: right;
+    margin-right: -15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.add .content-add-div {
+    padding: 10px 20px;
+}
+
+.add .content-add-div ul {
+    padding: 0 20px;
+}
+
+.add .content-add-div li {
+    list-style: none;
+    border-top: 1px solid #c4c4c4;
+    height: 70px;
+}
+
+.add .add-subscriptions-name {
+    text-align: left;
+}
+
+.add .add-subscriptions-price {
+    text-align: right;
+    padding-left: 40px;
+    padding-right: 0;
+    display: inline-block;
+}
+
+.add .add-subscriptions-price span {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.add .content-add-div .add-subscriptions-image {
+    vertical-align: middle;
+    width: 35px;
+}
+
+.add input[type=number] {
+    display: inline-block;
+}
+
+.add input[type="number"] {
+    vertical-align: top;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.add input[type=number]::-webkit-inner-spin-button,
+.add input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.add .number-input {
+    display: inline-block;
+    padding: 0px;
+    height: 30px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+}
+
+.add .number-input input[type=number] {
+    font-family: sans-serif;
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+    margin-bottom: 0;
+    border: none;
+    font-size: 14px;
+    height: 28px;
+    text-align: center;
+}
+
+.add .number-input-button-area {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 14px;
+    display: inline-block;
+    height: 29px;
+}
+
+.add .number-input button {
+    outline: none;
+    display: inline-block;
+    background-color: #51b6b5;
+    -webkit-appearance: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 1.3rem;
+    height: 0.9em;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.add .number-input .minus-button {
+    top: 15px;
+}
+
+
+.add .number-input button:before,
+.add .number-input button:after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    content: '';
+    left: 50%;
+    width: 0.5rem;
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+.add .number-input button.plus-button:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.add .payment-part-popup {
+    text-align: center;
+}
+
+.add .payment-part-popup div:first-child {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.add .payment-part-popup div p:first-child {
+    margin-bottom: 5px;
+}
+
+.add .payment-part-popup button {
+    background-color: #51b6b5;
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 30px;
+}

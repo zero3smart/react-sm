@@ -1,0 +1,180 @@
+.check-eligibility-content{
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    background-color: #F5F5F5;
+    padding: 50px 0px;
+}
+
+.check-eligibility-content h2{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    background-color: #F5F5F5;
+    position: relative;
+    z-index: 10;
+}
+
+.token-area{
+    border: 1px solid #53C1C0;
+    margin: 0 10%;
+    padding: 5% 0;
+    position: relative;
+    top: -15px;
+    text-align: center;
+}
+
+#eligible-part .token-area, #validated-part .token-area {
+    border: 1px solid #4cb042;
+}
+
+#validated-part .token-area{
+    margin-top: 22px;
+}
+
+#check-eligibility-part p{
+    color: #53C1C0;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+#check-eligibility-part input, #check-eligibility-part input:active{
+    width: 20%;
+    height: 47px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+#check-eligibility-part input[type=text]:focus:not([readonly]){
+    border-bottom: 1px solid #dddddd;
+    box-shadow: none;
+}
+#check-eligibility-part button, #eligible-part button{
+    position: relative;
+    top: -1px;
+    background-color: #E8BB66;
+    margin-right: 10px;
+    font-weight: 500;
+    border: none;
+    height: 47px;
+    padding: 0 25px;
+}
+
+#eligible-part button{
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+
+#check-eligibility-part i{
+    color: #53C1C0;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-right {
+    top: -5px;
+    left: 125%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    top: 10px;
+    background-color: #51b6b5;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #51b6b5 transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#eligible-part, #not-eligible-part, #validated-part{
+    display: none;
+}
+
+#eligible-part .terms-conditions{
+    cursor: pointer;
+}
+
+#eligible-part div p{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#eligible-part #terms-checkbox{
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 2px;
+    opacity: 1;
+}
+
+#eligible-part .congrats-message{
+    background-color: #fff;
+    padding: 25px 50px;
+    border: 1px solid #51b6b5;
+}
+
+#not-eligible-part p{
+    font-weight: 400;
+    font-size: 18px;
+    color: red;
+}
+
+#validated-part h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px 0 10px;
+}
+
+#validated-part img {
+    display: inline-block;
+    width: 100px;
+}
+
+#validated-part .congrats-message span{
+    font-weight: 600;
+    color: #4cb042;
+}
+
+#validated-part .token-area a{
+    margin-top: 30px;
+    display: block;
+    font-size: 20px;
+}
+#validated-part .token-area a i{
+    vertical-align: middle;
+}
+

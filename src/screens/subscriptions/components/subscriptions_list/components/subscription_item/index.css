@@ -1,0 +1,272 @@
+.content .product-card-header-content {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.content .greybox.rounded, .whitebox.rounded {
+    border-radius: 2px;
+}
+
+.content .nopad {
+    padding: 0;
+}
+
+.content .whitebox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.content .product-card .product-logo {
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.content .product-card .row {
+    margin-bottom: 0;
+}
+
+.picto-div{
+    padding-right:0;
+}
+
+
+.content .GscPicto {
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+
+.product-card .product-logo img {
+    padding: 20px 22px;
+    vertical-align: top;
+    width: 96px;
+}
+
+.content img {
+    height: auto;
+}
+
+.content .Product {
+    margin: 15px 0 10px ;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.domainname {
+    font-size: 1rem;
+    line-height: 1em;
+    margin: 0 0 10px 0;
+}
+
+.ProductVersion {
+    font-size: 15px;
+    font-weight: 600;
+    color: #61C2C1;
+    margin-bottom: 0;
+    margin-top: -10px !important;
+}
+
+.content b.cercle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+}
+
+.content .product-card-header-content .statut {
+    display: flex;
+    align-items: center;
+}
+
+.content .product-card-header-content .statut span {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.licences {
+    margin: 25px auto;
+    line-height: 25px;
+    border-right: 2px solid rgba(240, 240, 240, 1);
+}
+
+.content .determinate {
+    width: 40%;
+    height: 8px;
+}
+
+.licences p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.licences .spanUser, .licences .spanLicence {
+    font-size: 18px;
+}
+
+.content .progress {
+    display: inline-block;
+    margin: 0 25px;
+    background-color: #DBDDDA;
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.content p.uppercase {
+    text-align: right;
+}
+
+.percentagePart {
+    display: inline-block;
+}
+
+.uppercase .title {
+    display: inline-block;
+    vertical-align: 22px;
+}
+
+.actionSection .activeAction {
+    margin-top: 20px;
+    background-color: #EFBC61 !important;
+    font-size: 12px !important;
+    border-radius: 5px;
+    line-height: 10px;
+    height: 32px;
+    width: 100%;
+    border: none;
+}
+
+.launchButton {
+    margin-top: 20px;
+    height: 33px;
+    line-height: 10px;
+    background-color: #53C1C0;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px !important;
+    width: 100%;
+    color: white;
+}
+
+.item-addons {
+    width:100%;
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+    background-color: #F0F0F0;
+}
+
+.expireInfos {
+    text-align: right;
+    padding: 2px 15px 0 0;
+}
+
+.expireColor {
+    color: #F60000;
+    font-weight: 600;
+}
+
+.item-contract-details {
+    overflow: hidden;
+    padding: 0;
+    height: 0;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.item-contract-details.activeBottom {
+    overflow: visible;
+    padding: 15px;
+    height: 180px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.item-addons i {
+    margin-top: 6px;
+}
+
+.price-amount {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.frequencyHeader {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.promotions {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5DB7B6;
+}
+
+.addons {
+    margin-bottom: 10px;
+}
+
+.addons span {
+    padding: 0 25px;
+    border-right: 1px solid  #c4c4c4;
+}
+
+.addons span:first-child {
+    padding: 0 25px 0 0;
+}
+
+.addons span:last-child {
+    border: none;
+}
+
+.addons img {
+    position: relative;
+    top: 4px;
+}
+
+.addons-left, .addons-right {
+    display: inline-block;
+}
+
+.addons-right {
+    float: right;
+}
+
+.addons-right span {
+    margin-left: 25px;
+}
+
+#accordion img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.card-header {
+    padding: 0.15rem 0.5rem;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.addons-right {
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.addon-licence, .addon-price {
+    width: 50%;
+}

@@ -1,0 +1,125 @@
+{
+  "plans": [
+    {
+      "type" : "new",
+      "product_category" : {
+        "id" : 1,
+        "name" : "test",
+        "logo_small" : "",
+        "logo_big" : ""
+      },
+      "plans" : [
+        {
+          "name" : "",
+          "toggle_name" : "",
+          "full_name" : "",
+          "frequency" : "",
+          "alternate_frequency" : "",
+          "monthly" : "",
+          "default" : true
+        }
+      ],
+      "product" : [
+        {
+          "name" : "",
+          "version" : {
+            "name": "",
+            "extended_name": ""
+          },
+          "show_alternate" : "",
+          "price" : "",
+          "alternate_price" : "product_catalog.alternate_price",
+          "currency" : "subscription.currency",
+          "minimal_order" : "product_catalog.minimal_order",
+          "enabled": true,
+          "highlighted" : true,
+          "features" : [
+            {
+              "name" : "name",
+              "description" : "description",
+              "flagged": true,
+              "motto": true
+            }
+          ]
+        }
+      ],
+      "id" : 1,
+      "mostPopular" : false,
+      "currency" : "$",
+      "amount" : 4.17,
+      "unit" : "domain",
+      "commitment" : "month",
+      "planColor" : "amber",
+      "topMessage" : "5 users pack",
+      "billedMessage" : "Billed annualy",
+      "totalYearMessage" : "Total $50.00/year",
+      "optionnalMinMessage" : null,
+      "planName" : "BASIC",
+      "planSpecificFeatures" : [
+      "Up to 10 shared contact groups",
+      "Up to 250 shared Contacts per groups"
+      ],
+      "planFeatures" : [
+      "24/7 technical support",
+      "Mobile/Tablet & Outlook sync",
+      "Permission delegation",
+      "Sharing with users"
+      ],
+      "buttonName" : "BUY"
+    },
+    {
+      "id" : 2,
+      "mostPopular" : true,
+      "currency" : "$",
+      "amount" : 1.00,
+      "unit" : "user",
+      "commitment" : "month",
+      "planColor" : "blue",
+      "topMessage" : "UNLIMITED SHARES",
+      "billedMessage" : "Billed annualy",
+      "totalYearMessage" : "Total $12.00/year",
+      "optionnalMinMessage" : "(min. 5 users)",
+      "planName" : "PRO",
+      "planSpecificFeatures" : [
+        "Unlimited # of shared contact groups",
+        "Unlimited # of shared contacts",
+        "Sharing with users AND users groups"
+      ],
+      "planFeatures" : [
+        "24/7 technical support",
+        "Mobile/Tablet & Outlook sync",
+        "Permission delegation",
+        "Sharing with users"
+      ],
+      "buttonName" : "BUY"
+    },
+    {
+      "id" : 3,
+      "mostPopular" : false,
+      "currency" : "$",
+      "amount" : 1.29,
+      "unit" : "user",
+      "commitment" : "month",
+      "planColor" : "red",
+      "topMessage" : "FOR MULTIPLE DOMAINS",
+      "billedMessage" : "Billed annualy",
+      "totalYearMessage" : "Total $12.00/year",
+      "optionnalMinMessage" : "(min. 5 users)",
+      "planName" : "ENTERPRISE",
+      "planSpecificFeatures" : [
+        "Advanced logging and security features",
+        "Sharing with external domain users and @gmail.com addresses"
+      ],
+      "planFeatures" : [
+        "Unlimited # of shared contact groups",
+        "Unlimited # of shared contacts",
+        "Sharing with users AND users groups",
+        "24/7 technical support",
+        "Mobile/Tablet & Outlook sync",
+        "Permission delegation",
+        "Sharing with users"
+      ],
+      "buttonName" : "BUY"
+    }
+  ]
+}

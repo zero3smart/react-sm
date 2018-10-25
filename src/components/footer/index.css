@@ -1,0 +1,19 @@
+.footer-part footer.page-footer {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    background-color: #53c1c0;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.footer-part footer.page-footer .footer-copyright {
+    min-height: 25px;
+    height: 25px;
+}
+
+.footer-part footer.page-footer .container {
+    height: 25px;
+    padding: 0;
+}

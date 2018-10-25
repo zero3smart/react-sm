@@ -1,0 +1,99 @@
+.actionSection button {
+    cursor: pointer;
+}
+
+.buttonSelector {
+    position: relative;
+}
+
+.buttonSelector .buttonClick.activeAction {
+    width: 99%;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    padding: 0;
+    position: relative;
+    padding-right: 31px;
+}
+
+.buttonSelector .buttonClick.activeAction:focus {
+    border: none;
+    outline: none;
+}
+
+.buttonSelector .buttonClick.activeAction span {
+    height: 32px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.buttonSelector i {
+    cursor: pointer;
+    background-color: #cea152;
+    border-radius: 0 5px 5px 0;
+    top: 0;
+    right: -1%;
+    font-size: 32px;
+    position: absolute;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 10000;
+}
+
+#buyBtn span {
+    width: calc( 100% - 30px );
+    text-align: center;
+    padding-top: 11px;
+    display: inline-block;
+}
+
+.buttonSubOptions {
+    width: calc( 100% - 30px);
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.25s;
+    background-color: #EFBC61;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    z-index: 2;
+    top: 9px;
+    height: 0;
+    left: 0;
+}
+
+.buttonSubOptions.expandedButton {
+    height: 60px;
+    opacity: 1;
+    transition: all 0.25s;
+}
+
+#buyBtn a, .buttonSubOptions a, .buttonClick a, .buttonClick a:hover {
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    padding-top: 10px;
+    color: #000;
+}
+
+.buttonSubOptions ul {
+    padding: 0;
+    margin: 0;
+}
+
+.buttonSubOptions ul li {
+    cursor: pointer;
+    opacity: 1;
+    list-style: none;
+    font-size: 12px;
+    height: 30px;
+}
+
+.buttonSubOptions ul li:hover {
+    background-color: #cea152;
+}
+
+.buttonSubOptions ul li:last-child:hover {
+    border-radius: 0 0 5px 5px;
+}

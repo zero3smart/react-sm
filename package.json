@@ -1,0 +1,45 @@
+{
+  "name": "subscription-new",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://sanja-billing.gappsexperts.com",
+  "homepage": "http://0.0.0.0:8080/react51/",
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.10.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "dotenv": "^6.0.0",
+    "html2canvas": "^1.0.0-alpha.9",
+    "jquery": "^3.3.1",
+    "jspdf": "^1.3.5",
+    "md5": "^2.2.1",
+    "popper.js": "^1.14.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-i18next": "^7.7.0",
+    "react-localize-redux": "^3.2.0",
+    "react-materialize": "^1.1.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-select": "^2.0.0-alpha.1",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.6.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

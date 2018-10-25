@@ -1,0 +1,51 @@
+.cancel {
+    background-color: #fff;
+    position: absolute;
+    padding-bottom: 20px;
+    width: 25%;
+    top: 25%;
+    left: 37%;
+}
+
+.cancel .closeButton {
+    font-weight: 600;
+    margin-right: -15px;
+    float: right;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.cancel  p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cancel .buttonArea {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+.cancel .buttonArea button {
+    outline: none;
+    width: 150px;
+    padding: 5px 10px;
+}
+
+.cancel .buttonArea button:first-child {
+    background-color: transparent;
+    color: #51b6b5;
+    border: none;
+}
+
+.cancel .buttonArea button:nth-child(2), #cancel-second-step button {
+    background-color: #51b6b5;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+}
+
+#cancel-second-step {
+    display: none;
+}
